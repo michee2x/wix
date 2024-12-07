@@ -1,9 +1,10 @@
 import React from 'react'
+import { ProductDetail } from '../Components/ProductDetail'
 
 const ProductPage = () => {
   return (
     <div className='min-h-screen w-full '>
-      thsi is the product page
+      <ProductDetail />
     </div>
   )
 }

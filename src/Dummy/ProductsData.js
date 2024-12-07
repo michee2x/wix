@@ -1,35 +1,45 @@
-export const ProductsData = [
+
+export const ProdctsData2 = [
     {
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
-    },{
-        name:"NIKE REVOLT",
-        price:"$599",
-        image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80"
+        img:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&q=75&fit=crop&w=600",
+        name:"Timely Watch",
+        beforePrice:"$30.00",
+        nowPrice:"$15.00"
     },
+    {
+        img:"https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&q=75&fit=crop&w=600",
+        name:"Fancy Plant",
+        beforePrice:"",
+        nowPrice:"$9.00"
+    },
+    {
+        img:"https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&q=75&fit=crop&w=600",
+        name:"Elderly Cam",
+        beforePrice:"",
+        nowPrice:"$45.00"
+    },
+    {
+        img:"https://images.unsplash.com/photo-1560343090-f0409e92791a?auto=format&q=75&fit=crop&w=600",
+        name:"Shiny Shoe",
+        beforePrice:"",
+        nowPrice:"$29.00"
+    },
+    {
+        img:"https://images.unsplash.com/photo-1619066045029-5c7e8537bd8c?auto=format&q=75&fit=crop&w=600",
+        name:"Lazy Bottle",
+        beforePrice:"",
+        nowPrice:"$9.00"
+    },
+    {
+        img:"https://images.unsplash.com/photo-1579609598065-79f8e5bcfb70?auto=format&q=75&fit=crop&w=600",
+        name:"Sturdy Stand",
+        beforePrice:"$24.00",
+        nowPrice:"$12.00"
+    },
+    {
+        img:"https://images.unsplash.com/photo-1612033448550-9d6f9c17f07d?auto=format&q=75&fit=crop&w=600",
+        name:"Wieldy Film",
+        beforePrice:"",
+        nowPrice:"$19.00"
+    }
 ]

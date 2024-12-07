@@ -1,13 +1,14 @@
 import React from 'react'
 import { Hero } from '../Components/Hero'
-import { ProductFeed } from '../Sections/ProductFeed'
 import BentoGrid from '../Components/BentoGrid'
+import { ProductGrid } from '../Components/ProductGrid'
 
 const Home = () => {
   return (
     <>
     <Hero />
-    <ProductFeed />
+    <ProductGrid section="Cloths"/>
+    <ProductGrid section="Buy some shoes as.."/>
     
     </>
   )
