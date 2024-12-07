@@ -13,7 +13,7 @@ export const SideBar = ({children}) => {
         <div className="w-full relative h-full flex">
         <aside class={`flex ${showSideBar ? "w-full px-5" : "w-0"} transition-all duration-500 fixed top-0 z-10 bottom-0 left-0 flex-col lg:w-[20%] h-screen py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700`}>
     <p className="w-full h-auto items-center flex justify-between pr-2">
-        <img class="w-auto h-7" src="https://merakiui.com/images/logo.svg" alt="" />
+        <img class="w-auto transform rotate-180 h-7" src="https://merakiui.com/images/logo.svg" alt="" />
         <span onClick={() => setShowSideBar(false)} className="text-2xl text-gray-500 lg:hidden"><MdCancel /></span>
     </p>
 
