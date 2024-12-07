@@ -8,8 +8,8 @@ const Nav = () => {
     <nav className="px-6 py-4 shadow">
         <div className="lg:items-center lg:justify-between lg:flex">
             <div className="flex items-center justify-between">
-                <a href="/" className="mx-auto ">
-                    <code className='text-gray-500 flex gap-2 items-center text-xl font-extrabold translate-x-9'><img class="w-auto transform rotate-180 h-7" src="https://merakiui.com/images/logo.svg" alt="" /><span className="">i x y</span></code>
+                <a href="/" className="ml-3 ">
+                    <code className='text-gray-500 flex gap-2 items-center text-xl font-extrabold translate-x-9'><img class="w-auto transform rotate-180 h-6" src="https://merakiui.com/images/logo.svg" alt="" /><span className="">i x y</span></code>
                 </a>
 
                 {/* <!-- Mobile menu button --> */}
