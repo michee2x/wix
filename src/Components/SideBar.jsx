@@ -112,7 +112,7 @@ export const SideBar = ({children}) => {
         </div>
     </div>
 </aside>
-<div className="lg:w-[80%] w-full lg:ml-[20%] min-h-screen">
+<div className="lg:w-[80%] h-auto w-full lg:ml-[20%] lg:min-h-screen">
 <Nav />
 {children}
 <Footer />
