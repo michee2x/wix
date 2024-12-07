@@ -9,7 +9,7 @@ const Nav = () => {
         <div className="lg:items-center lg:justify-between lg:flex">
             <div className="flex items-center justify-between">
                 <a href="#" className="mx-auto ">
-                    <code className='text-gray-500 text-xl font-extrabold translate-x-9'><span className='text-blue-600'>w </span>i x y</code>
+                    <code className='text-gray-500 text-xl font-extrabold translate-x-9'>.<img class="w-auto transform rotate-180 h-7" src="https://merakiui.com/images/logo.svg" alt="" /> i x y</code>
                 </a>
 
                 {/* <!-- Mobile menu button --> */}
