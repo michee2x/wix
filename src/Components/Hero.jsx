@@ -20,7 +20,7 @@ export const Hero = () => {
         </div>
 
         <div className="w-full h-64 lg:w-1/2 lg:h-auto">
-            <div className="w-full h-full bg-cover" style={{backgroundImage: `url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80")`}}>
+            <div className="w-full h-full bg-cover" style={{backgroundImage: `url("https://i.imgur.com/aTE3WGS.jpeg")`, }}>
                 <div className="w-full h-full bg-black opacity-25"></div>
             </div>
         </div>

@@ -6,10 +6,12 @@ import { ProductGrid } from '../Components/ProductGrid'
 const Home = () => {
   return (
     <>
-    <Hero />
+    <div className='w-full h-full relative bg-gray-500'>
+      <Hero />
     <ProductGrid section="Cloths"/>
     <ProductGrid section="Buy some shoes as.."/>
     
+    </div>
     </>
   )
 }

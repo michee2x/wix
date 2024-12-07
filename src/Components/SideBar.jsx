@@ -1,14 +1,21 @@
 import React from "react"
 import {Footer} from "./Footer"
+import {Hero} from "./Hero"
+import {MdCancel} from 'react-icons/md'
+import Nav from "./Nav"
+import { ContextAPI } from "../ContextApi"
 
-export const SideBar = ({Outlet}) => {
+
+export const SideBar = ({children}) => {
+    const {showSideBar, setShowSideBar} = ContextAPI()
     return (
         <>
-        <div className="w-full h-full flex">
-        <aside class="flex fixed top-0 bottom-0 left-0 flex-col w-[20%] h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-    <a href="#">
+        <div className="w-full relative h-full flex">
+        <aside class={`flex ${showSideBar ? "w-full px-5" : "w-0"} transition-all duration-500 fixed top-0 z-10 bottom-0 left-0 flex-col lg:w-[20%] h-screen py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700`}>
+    <p className="w-full h-auto items-center flex justify-between pr-2">
         <img class="w-auto h-7" src="https://merakiui.com/images/logo.svg" alt="" />
-    </a>
+        <span onClick={() => setShowSideBar(false)} className="text-2xl text-gray-500 lg:hidden"><MdCancel /></span>
+    </p>
 
     <div class="flex flex-col justify-between flex-1 mt-6">
         <nav class="flex-1 -mx-3 space-y-3 ">
@@ -105,7 +112,9 @@ export const SideBar = ({Outlet}) => {
         </div>
     </div>
 </aside>
-<div className="w-[80%] text-[10rem] h-screen">
+<div className="lg:w-[80%] w-full lg:ml-[20%] min-h-screen">
+<Nav />
+{children}
 <Footer />
 </div>
         </div>
