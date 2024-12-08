@@ -1,7 +1,11 @@
 import React, {useState} from "react";
 
 export const CookieComponent = () => {
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(false)
+
+setTimeout(() => {
+    setShow(true)
+}, 3000);
 
     return (
         <>
