@@ -4,7 +4,7 @@ import { SideBar } from './Components/SideBar'
 
 const Layout = () => {
   return (
-    <div className='w-screen min-h-screen'>
+    <div className='w-screen overflow-scroll min-h-screen'>
     <SideBar>
       <Outlet />
     </SideBar>

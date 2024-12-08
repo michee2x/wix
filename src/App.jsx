@@ -4,9 +4,7 @@ import { Hero } from './Components/Hero'
 import { Footer } from './Components/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Layout from './Layout'
-import Home from './Pages/Home'
-import ProductPage from './Pages/ProductPage'
-import { CartPage } from './Pages/CartPage'
+import {Home, CartPage, AuthPage, ProductPage} from "./Pages/index"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +19,8 @@ function App() {
           <Route path='/product/:id' element={<ProductPage />} />
           <Route path='/cart/:id' element={<CartPage />} />
       </Route>
+
+      <Route path='/auth' element={<AuthPage />} />
 
     </Routes>
     
