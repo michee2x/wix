@@ -3,11 +3,6 @@ import React, {useState} from "react";
 export const CookieComponent = () => {
     const [show, setShow] = useState(true)
 
-    if(show){
-        setTimeout(() => {
-            setShow(false)
-        }, 3000)
-    }
     return (
         <>
         <section className={`fixed ${show ? "block" : "hidden"} w-[90%] h-auto lg:w-1/3 z-40 shadow-lg left-1/2 transform -translate-x-1/2 shadow-black/10 max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 bottom-16 dark:border-gray-700 rounded-2xl`}>
