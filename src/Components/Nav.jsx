@@ -5,7 +5,7 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
     const {showSideBar, setShowSideBar} = ContextAPI()
   return (
-    <nav className="fixed bg-gray-900 top-0 left-0 right-0 py-4 shadow">
+    <nav className="fixed z-50 bg-gray-900 top-0 left-0 right-0 py-4 shadow">
         <div className="lg:items-center shadow-sm px-5 py-4 shadow-black/20 w-full h-full lg:justify-between lg:flex">
             <div className="flex items-center  justify-between">
                 <a href="/" className="">
