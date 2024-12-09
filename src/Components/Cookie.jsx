@@ -12,7 +12,7 @@ setTimeout(() => {
 }, 3000);
 }
 
-export const storeInLocalStorage = (key, value) => {
+const storeInLocalStorage = (key, value) => {
     localStorage.setItem(key, JSON.stringify(value))
 }
 
