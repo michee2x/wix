@@ -14,8 +14,7 @@ export const Home = () => {
       <Stats />
       <Portfolio />
       <Reviews />
-    <ProductGrid section="Cloths"/>
-    <ProductGrid section="Buy some shoes as.."/>
+    <ProductGrid section="Featured Products"/>
     
     </div>
     </>
