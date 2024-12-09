@@ -5,7 +5,7 @@ export const CookieComponent = () => {
     return localStorage.getItem("wixy-cookie") || ""
   })
 
-const {showCookie, setShowCookie} = ContextAPI
+const {showCookie, setShowCookie} = ContextAPI()
 if(!cookie){
 setTimeout(() => {
     setShowCookie(true)
