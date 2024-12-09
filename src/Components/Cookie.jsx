@@ -6,9 +6,11 @@ export const CookieComponent = () => {
   })
     const [show, setShow] = useState(false)
 
+if(!cookie){
 setTimeout(() => {
     setShow(true)
 }, 3000);
+}
 
     return (
         <>
