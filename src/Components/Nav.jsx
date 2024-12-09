@@ -1,5 +1,7 @@
 import React,{useState} from 'react'
 import { ContextAPI } from '../ContextApi'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
