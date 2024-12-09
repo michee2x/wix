@@ -12,6 +12,10 @@ setTimeout(() => {
 }, 3000);
 }
 
+export const storeFieldInLocalStorage = (key, value) => {
+    localStorage.setItem(key, JSON.stringify(value))
+}
+
     return (
         <>
         <section className={`fixed ${!cookie ? "block" : "hidden"} w-[90%] h-auto lg:w-1/3 z-40 shadow-lg left-1/2 transform -translate-x-1/2 shadow-black/10 max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 bottom-12 dark:border-gray-700 rounded-2xl`}>
@@ -24,7 +28,7 @@ setTimeout(() => {
             Manage your preferences
         </button>
 
-        <button onClick={() => setShow(false)} className=" text-xs bg-gray-900 font-medium rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
+        <button onClick={() => storeFieldInLocalStorage("wixy-cookie", "cookie accepted")} className=" text-xs bg-gray-900 font-medium rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
             Accept
         </button>
     </div>
