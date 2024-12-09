@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import { ContextAPI } from '../ContextApi'
 import Aos from "aos"
 import "aos/dist/aos.css"
