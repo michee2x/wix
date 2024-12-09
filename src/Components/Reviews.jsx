@@ -8,13 +8,13 @@ const Reviews = () => {
 }, [])
   return (
     <>
-      <div data-aos="fade-up" className="bg-white py-6 sm:py-8 lg:py-12">
+      <div data-aos="fade-up" className="bg-white dark:bg-gray-900 dark:text-gray-100 py-6 sm:py-8 lg:py-12">
   <div className="mx-auto max-w-screen-xl px-4 md:px-8">
     <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
       {/* <!-- overview - start --> */}
       <div>
         <div className="rounded-lg border p-4">
-          <h2 className="mb-3 text-lg font-bold text-gray-800 lg:text-xl">Our Customer Reviews</h2>
+          <h2 className="mb-3 text-lg font-bold text-gray-800 dark:text-gray-100 lg:text-xl">Our Customer Reviews</h2>
 
           <div className="mb-0.5 flex items-center gap-2">
             {/* <!-- stars - start --> */}
@@ -44,12 +44,12 @@ const Reviews = () => {
             <span className="text-sm font-semibold">4/5</span>
           </div>
 
-          <span className="block text-sm text-gray-500">Bases on 27 reviews</span>
+          <span className="block text-sm text-gray-500 dark:text-gray-100">Bases on 27 reviews</span>
 
           <div className="my-5 flex flex-col gap-2 border-t border-b py-5">
             {/* <!-- star - start --> */}
             <div className="flex items-center gap-3">
-              <span className="w-10 whitespace-nowrap text-right text-sm text-gray-600">5 Star</span>
+              <span className="w-10 whitespace-nowrap text-right text-sm dark:text-gray-100 text-gray-600">5 Star</span>
 
               <div className="flex h-4 flex-1 overflow-hidden rounded bg-gray-200">
                 <span className="h-full w-3/4 rounded bg-blue-600"></span>
@@ -59,7 +59,7 @@ const Reviews = () => {
 
             {/* <!-- star - start --> */}
             <div className="flex items-center gap-3">
-              <span className="w-10 whitespace-nowrap text-right text-sm text-gray-600">4 Star</span>
+              <span className="w-10 whitespace-nowrap dark:text-gray-100 text-right text-sm text-gray-600">4 Star</span>
 
               <div className="flex h-4 flex-1 overflow-hidden rounded bg-gray-200">
                 <span className="h-full w-1/2 rounded bg-blue-600"></span>
@@ -69,7 +69,7 @@ const Reviews = () => {
 
             {/* <!-- star - start --> */}
             <div className="flex items-center gap-3">
-              <span className="w-10 whitespace-nowrap text-right text-sm text-gray-600">3 Star</span>
+              <span className="w-10 whitespace-nowrap dark:text-gray-100 text-right text-sm text-gray-600">3 Star</span>
 
               <div className="flex h-4 flex-1 overflow-hidden rounded bg-gray-200">
                 <span className="h-full w-1/6 rounded bg-blue-600"></span>
@@ -79,7 +79,7 @@ const Reviews = () => {
 
             {/* <!-- star - start --> */}
             <div className="flex items-center gap-3">
-              <span className="w-10 whitespace-nowrap text-right text-sm text-gray-600">2 Star</span>
+              <span className="w-10 whitespace-nowrap dark:text-gray-100 text-right text-sm text-gray-600">2 Star</span>
 
               <div className="flex h-4 flex-1 overflow-hidden rounded bg-gray-200">
                 <span className="h-full w-1/4 rounded bg-blue-600"></span>
@@ -89,7 +89,7 @@ const Reviews = () => {
 
             {/* <!-- star - start --> */}
             <div className="flex items-center gap-3">
-              <span className="w-10 whitespace-nowrap text-right text-sm text-gray-600">1 Star</span>
+              <span className="w-10 whitespace-nowrap dark:text-gray-100 text-right text-sm text-gray-600">1 Star</span>
 
               <div className="flex hidden h-4 flex-1 overflow-hidden rounded bg-gray-200">
                 <span className="h-full w-1/12 rounded bg-blue-600"></span>
@@ -113,8 +113,8 @@ const Reviews = () => {
           {/* <!-- review - start --> */}
           <div className="flex flex-col gap-3 py-4 md:py-8">
             <div>
-              <span className="block text-sm font-bold">John McCulling</span>
-              <span className="block text-sm text-gray-500">August 28, 2021</span>
+              <span className="block text-sm font-bold dark:text-gray-100">John McCulling</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-100">August 28, 2021</span>
             </div>
 
             {/* <!-- stars - start --> */}
@@ -141,15 +141,15 @@ const Reviews = () => {
             </div>
             {/* <!-- stars - end --> */}
 
-            <p className="text-gray-600">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing.</p>
+            <p className="text-gray-600 dark:text-gray-100">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing.</p>
           </div>
           {/* <!-- review - end --> */}
 
           {/* <!-- review - start --> */}
           <div className="flex flex-col gap-3 py-4 md:py-8">
             <div>
-              <span className="block text-sm font-bold">Kate Berg</span>
-              <span className="block text-sm text-gray-500">July 21, 2021</span>
+              <span className="block text-sm font-bold dark:text-gray-100">Kate Berg</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-100">July 21, 2021</span>
             </div>
 
             {/* <!-- stars - start --> */}
@@ -176,15 +176,15 @@ const Reviews = () => {
             </div>
             {/* <!-- stars - end --> */}
 
-            <p className="text-gray-600">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing.</p>
+            <p className="text-gray-600 dark:text-gray-100">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing.</p>
           </div>
           {/* <!-- review - end --> */}
 
           {/* <!-- review - start --> */}
           <div className="flex flex-col gap-3 py-4 md:py-8">
             <div>
-              <span className="block text-sm font-bold">Greg Jackson</span>
-              <span className="block text-sm text-gray-500">March 16, 2021</span>
+              <span className="block text-sm font-bold dark:text-gray-100">Greg Jackson</span>
+              <span className="block text-sm text-gray-500 dark:text-gray-100">March 16, 2021</span>
             </div>
 
             {/* <!-- stars - start --> */}
@@ -211,7 +211,7 @@ const Reviews = () => {
             </div>
             {/* <!-- stars - end --> */}
 
-            <p className="text-gray-600">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing.</p>
+            <p className="text-gray-600 dark:text-gray-100">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated. It may be used to display a sample of fonts or generate text for testing.</p>
           </div>
           {/* <!-- review - end --> */}
         </div>

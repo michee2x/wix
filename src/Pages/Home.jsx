@@ -9,7 +9,7 @@ import Portfolio from '../Components/Portfolio'
 export const Home = () => {
   return (
     <>
-    <div className='w-full bg-gray-900 min-h-64 relative'>
+    <div className='w-full bg-white dark:bg-gray-900 min-h-64 relative'>
       <Hero />
       <Stats />
       <Portfolio />

@@ -11,7 +11,7 @@ const Nav = () => {
     Aos.init({duration:2000})
 }, [])
   return (
-    <nav className="fixed z-30 bg-gray-900 top-0 left-0 right-0 py-2 shadow">
+    <nav className="fixed z-30 bg-gray-200 dark:bg-gray-900 top-0 left-0 right-0 shadow">
         <div className="lg:items-center shadow-sm px-5 py-4 shadow-black/20 w-full h-full lg:justify-between lg:flex">
             <div className="flex items-center  justify-between">
                 <a data-aos="slide-left" href="/" className="">
@@ -29,7 +29,7 @@ const Nav = () => {
             </div>
 
             {/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
-            <div className={`absolute inset-x-0 hidden z-20 w-full px-6 py-4 overflow-hidden lg:h-full transition-all ${isOpen ? "h-auto":"h-0"} duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:dark:bg-transparent lg:shadow-none dark:bg-gray-900 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center`}>
+            <div className={`absolute lg:hidden inset-x-0 hidden z-20 w-full px-6 py-4 overflow-hidden lg:h-full transition-all ${isOpen ? "h-auto":"h-0"} duration-300 ease-in-out bg-white shadow-md lg:bg-transparent lg:dark:bg-transparent lg:shadow-none dark:bg-gray-900 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center`}>
                 <a href="/" className="block px-3 py-2 text-gray-600 rounded-lg dark:text-gray-200 hover:bg-gray-100 lg:mx-2">Home</a>
                 <a href="#" className="block px-3 py-2 text-gray-600 rounded-lg dark:text-gray-200 hover:bg-gray-100 lg:mx-2">About</a>
                 <a href="#" className="block px-3 py-2 text-gray-600 rounded-lg dark:text-gray-200 hover:bg-gray-100 lg:mx-2">Contact</a>
