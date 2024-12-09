@@ -6,11 +6,15 @@ import "aos/dist/aos.css"
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
     const {showSideBar, setShowSideBar} = ContextAPI()
+
+    useEffect(() => {
+    Aos.init({duration:2000})
+}, [])
   return (
     <nav className="fixed z-30 bg-gray-900 top-0 left-0 right-0 py-2 shadow">
         <div className="lg:items-center shadow-sm px-5 py-4 shadow-black/20 w-full h-full lg:justify-between lg:flex">
             <div className="flex items-center  justify-between">
-                <a href="/" className="">
+                <a data-aos="slide-left" href="/" className="">
                     <code className='text-gray-800 flex gap-3 items-center text-xl font-extrabold'><img class="w-auto transform rotate-180 h-6" src="https://merakiui.com/images/logo.svg" alt="" /><span className="text-blue-600 opacity-50"> i x y</span></code>
                 </a>
 
