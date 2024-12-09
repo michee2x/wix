@@ -37,7 +37,7 @@ export const ProductGrid = ({section}) => {
           <p className="hover:gray-800 mb-1 text-gray-500 transition duration-100 lg:text-lg">Timely Watch</p>
 
           <div className="flex items-end gap-2">
-            <span className="font-bold text-gray-800 lg:text-lg dark:text-gray-900">$15.00</span>
+            <span className="font-bold text-gray-800 lg:text-lg dark:text-gray-200">$15.00</span>
             <span className="mb-0.5 text-red-500 line-through">$30.00</span>
           </div>
         </div>
