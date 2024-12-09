@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import { ContextAPI } from "../ContextApi"
 export const CookieComponent = () => {
       const [cookie, setCookie] = useState(() => {
     return localStorage.getItem("wixy-cookie") || ""
