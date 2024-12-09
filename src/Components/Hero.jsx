@@ -6,7 +6,7 @@ export const Hero = () => {
         <>
         <header className="bg-white dark:bg-gray-900">
     <div className="lg:flex">
-        <div className="flex items-center justify-center w-full px-6 py-8 lg:h-[32rem] lg:w-1/2">
+        <div className="flex items-center justify-center w-full px-6 pt-16 pb-8 lg:h-[32rem] lg:w-1/2">
             <div className="max-w-xl">
                 <h2 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">We Provide Your <span className="text-blue-600 dark:text-blue-400">Ideas</span></h2>
 
@@ -20,7 +20,7 @@ export const Hero = () => {
             </div>
         </div>
 
-        <div className="w-full h-64 lg:w-1/2 lg:h-auto">
+        <div className="w-full h-[50vh] lg:w-1/2 lg:h-auto">
             <div className="w-full h-full bg-cover" style={{backgroundImage: `url("https://i.imgur.com/aTE3WGS.jpeg")`, }}>
                 <div className="w-full h-full bg-black opacity-25"></div>
             </div>
