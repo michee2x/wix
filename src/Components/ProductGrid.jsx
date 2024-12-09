@@ -1,14 +1,15 @@
 import React from "react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { ProdctsData2 } from "../Dummy/ProductsData"
 import { Link } from "react-router-dom"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 export const ProductGrid = ({section}) => {
-    const [product, setProduct] = useState([
-        {
-            img:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&q=75&fit=crop&w=600", name:"Timely Watch", before:"$30.00", price:"$15.00"
-        }
-    ])
+        useEffect(() => {
+    Aos.init({duration:2000})
+}, [])
+
     return (
         <>
         
@@ -25,7 +26,7 @@ export const ProductGrid = ({section}) => {
         return (
             <>
             {/* <!-- product - start --> */}
-      {e.beforePrice && <Link to={"/product/sahfpioah"}>
+      {e.beforePrice && <Link data-aos="fade-up" to={"/product/sahfpioah"}>
         <p className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 lg:mb-3">
           <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Rachit Tank" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -44,7 +45,7 @@ export const ProductGrid = ({section}) => {
       {/* <!-- product - end --> */}
 
       {/* <!-- product - start --> */}
-      {!e.beforePrice && <Link to={"/product/afoiad"}>
+      {!e.beforePrice && <Link data-aos="fade-up" to={"/product/afoiad"}>
         <p className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 lg:mb-3">
           <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Galina N" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </p>

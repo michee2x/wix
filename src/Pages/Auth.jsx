@@ -1,5 +1,6 @@
 import React from "react";
 import { ErrorAlert } from "../Components/ErrorAlert";
+import { storeFieldInLocalStorage } from "../Utils/LocalStorage";
 
 export const AuthPage = () => {
     return (
@@ -21,7 +22,8 @@ export const AuthPage = () => {
           <input name="password" className="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring" />
         </div>
 
-        <button className="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-gray-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">Log in</button>
+        <button onClick={() => storeFieldInLocalStorage("wixy-cookie", "there is a cookie")} className="block rounded-lg bg-gray-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none
+         ring-gray-300 transition duration-100 hover:bg-gray-700 focus-visible:ring active:bg-gray-600 md:text-base">Log in</button>
 
         <div className="relative flex items-center justify-center">
           <span className="absolute inset-x-0 h-px bg-gray-300"></span>
