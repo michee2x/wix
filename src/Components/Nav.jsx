@@ -5,11 +5,11 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false)
     const {showSideBar, setShowSideBar} = ContextAPI()
   return (
-    <nav className="fixed top-0 left-0 right-0 py-4 shadow">
+    <nav className="fixed bg-gray-900 top-0 left-0 right-0 py-4 shadow">
         <div className="lg:items-center shadow-sm px-5 py-4 shadow-black/20 w-full h-full lg:justify-between lg:flex">
             <div className="flex items-center  justify-between">
                 <a href="/" className="">
-                    <code className='text-gray-800 flex gap-3 items-center text-xl font-extrabold'><img class="w-auto transform rotate-180 h-6" src="https://merakiui.com/images/logo.svg" alt="" /><span className=""> i x y</span></code>
+                    <code className='text-gray-800 flex gap-3 items-center text-xl font-extrabold'><img class="w-auto transform rotate-180 h-6" src="https://merakiui.com/images/logo.svg" alt="" /><span className="text-blue-600 opacity-50"> i x y</span></code>
                 </a>
 
                 {/* <!-- Mobile menu button --> */}
