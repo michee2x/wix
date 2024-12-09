@@ -9,7 +9,7 @@ export const CookieComponent = () => {
 if(!cookie){
 setTimeout(() => {
     setShow(true)
-})}
+}, 4000)}
 
 const storeInLocalStorage = (key, value) => {
     localStorage.setItem(key, JSON.stringify(value))
@@ -27,7 +27,7 @@ const storeInLocalStorage = (key, value) => {
             Manage your preferences
         </button>
 
-        <button onClick={() => {storeInLocalStorage("wixy-cookie", "cookie accepted"); setShow(false)}} className=" text-xs bg-gray-900 font-medium rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
+        <button onClick={() => storeInLocalStorage("wixy-cookie", "cookie accepted")} className=" text-xs bg-gray-900 font-medium rounded-lg hover:bg-gray-700 text-white px-4 py-2.5 duration-300 transition-colors focus:outline-none">
             Accept
         </button>
     </div>
