@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { ContextAPI } from "../ContextApi"
 export const CookieComponent = () => {
       const [cookie, setCookie] = useState(() => {
@@ -6,10 +6,14 @@ export const CookieComponent = () => {
   })
 
 const {showCookie, setShowCookie} = ContextAPI()
+
+useEffect(() => {
 if(!cookie){
 setTimeout(() => {
     setShowCookie(true)
 }, 4000)}
+
+}, [showCookie, cookie])
 
 const storeInLocalStorage = (key, value) => {
     localStorage.setItem(key, JSON.stringify(value))
