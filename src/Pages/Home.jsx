@@ -27,8 +27,6 @@ export const Home = () => {
       <Portfolio />
       <Reviews />
     <ProductGrid section="Featured Products"/>
-
-<BentoSection />
     
     </div>
     </>
