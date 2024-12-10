@@ -7,10 +7,6 @@ export const CookieComponent = () => {
 
   const [show, setShow] = useState(true);
 
-  setTimeout(() => {
-    setShow(false)
-  }, 3000);
-
 const storeInLocalStorage = (key, value) => {
     localStorage.setItem(key, JSON.stringify(value))
 }
