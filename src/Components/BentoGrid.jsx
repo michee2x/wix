@@ -2,7 +2,7 @@ import React from 'react'
 
 const BentoGrid = ({images}) => {
   return (
-    <div className='w-full grid grid-cols-2 grid-rows-2 gap-5 px-5 h-64 lg:h-[70vh] mt-10'>
+    <div className='w-full grid grid-cols-2 grid-rows-2 gap-2 lg:gap-5 px-5 h-64 lg:h-[70vh] mt-10'>
         <img src={images[0]} loading="lazy" alt="Photo by vahid kanani" class="object-cover rounded-xl w-full h-full col-span-1 row-span-2 object-center transition duration-200 group-hover:scale-110" />
         <img src={images[1]} loading="lazy" alt="Photo by vahid kanani" class="object-cover rounded-xl w-full h-full object-center col-span-1 row-span-1 transition duration-200 group-hover:scale-110" />
         <img src={images[2]} loading="lazy" alt="Photo by vahid kanani" class="object-cover rounded-xl w-full h-full object-center col-span-1 row-span-1 transition duration-200 group-hover:scale-110" />
