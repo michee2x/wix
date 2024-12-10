@@ -1,13 +1,13 @@
 
 export const ProdctsData2 = [
     {
-        img:"https://unsplash.com/photos/brown-nike-sneaker-on-yellow-textile-NOpsC3nWTzY",
+        img:"https://images.unsplash.com/photo-1612033448550-9d6f9c17f07d?auto=format&q=75&fit=crop&w=600",
         name:"Timely Watch",
         beforePrice:"$30.00",
         nowPrice:"$15.00"
     },
     {
-        img:"https://unsplash.com/photos/unpaired-off-white-x-nike-air-force-1-low-top-sneaker-PqbL_mxmaUE",
+        img:"https://images.unsplash.com/photo-1579609598065-79f8e5bcfb70?auto=format&q=75&fit=crop&w=600",
         name:"Fancy Plant",
         beforePrice:"",
         nowPrice:"$9.00"
