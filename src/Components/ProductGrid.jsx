@@ -28,7 +28,7 @@ export const ProductGrid = ({section}) => {
             {/* <!-- product - start --> */}
       {e.beforePrice && <Link data-aos="fade-up" to={"/product/sahfpioah"}>
         <p className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-900 lg:mb-3">
-          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Rachit Tank" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={e.img} loading="lazy" alt="Photo by Rachit Tank" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
           <span className="absolute left-0 top-0 rounded-br-lg bg-red-500 px-3 py-1.5 text-sm uppercase tracking-wider text-white">sale</span>
         </p>
@@ -47,7 +47,7 @@ export const ProductGrid = ({section}) => {
       {/* <!-- product - start --> */}
       {!e.beforePrice && <Link data-aos="fade-up" to={"/product/afoiad"}>
         <p className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-900 lg:mb-3">
-          <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&q=75&fit=crop&w=600" loading="lazy" alt="Photo by Galina N" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+          <img src={e.img} loading="lazy" alt="Photo by Galina N" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </p>
 
         <div>

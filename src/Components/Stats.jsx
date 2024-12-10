@@ -6,7 +6,7 @@ import "aos/dist/aos.css"
 const CountComponent = ({num}) => {
     return (
         <CountUp end={num}
-        duration={5} delay={2}
+        duration={8} delay={4}
         
         />
     )
