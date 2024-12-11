@@ -9,7 +9,7 @@ export const ProductDetail = () => {
 }, [])
     return (
         <>
-            <div data-aos="fade-up" className="bg-white pt-16 pb-6 sm:py-8 lg:py-24">
+            <div data-aos="fade-up" className="bg-white pt-24 pb-6 sm:py-8 lg:py-24">
   <div className="mx-auto max-w-screen-lg px-4 md:px-8">
     <div className="grid gap-8 md:grid-cols-2">
       {/* <!-- images - start --> */}
