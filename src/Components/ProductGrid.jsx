@@ -26,7 +26,7 @@ export const ProductGrid = ({section}) => {
         return (
             <>
             {/* <!-- product - start --> */}
-      {e.beforePrice && <Link data-aos="fade-up" onClick={window.scrollTo(0,0)} to={"/product/sahfpioah"}>
+      {e.beforePrice && <Link data-aos="fade-up" onClick={() => window.scrollTo(0,0)} to={"/product/sahfpioah"}>
         <p className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-900 lg:mb-3">
           <img src={e.img} loading="lazy" alt="Photo by Rachit Tank" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -45,7 +45,7 @@ export const ProductGrid = ({section}) => {
       {/* <!-- product - end --> */}
 
       {/* <!-- product - start --> */}
-      {!e.beforePrice && <Link data-aos="fade-up" onClick={window.scrollTo(0,0)} to={"/product/afoiad"}>
+      {!e.beforePrice && <Link data-aos="fade-up" onClick={() => window.scrollTo(0,0)} to={"/product/afoiad"}>
         <p className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 dark:bg-gray-900 lg:mb-3">
           <img src={e.img} loading="lazy" alt="Photo by Galina N" className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
         </p>
